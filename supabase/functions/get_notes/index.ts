@@ -1,4 +1,8 @@
-// Why GET /notes? GET is used for fetching resources; user_id is from auth, no query params needed.
+/*
+Http method used : Get (Standard http method for fetching the data)
+URL PATH : https://lbmgtgjxhorenruvglmx.supabase.co/functions/v1/get_notes
+No Params required
+*/
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 import { createClient } from "jsr:@supabase/supabase-js@2";
 

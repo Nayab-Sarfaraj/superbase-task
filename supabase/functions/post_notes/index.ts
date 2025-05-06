@@ -1,4 +1,8 @@
-// Why POST /notes? POST is standard for creating new resources; data is read from body.
+/*
+Http method used : POST (Standard  method for creating the notes)
+URL PATH : https://lbmgtgjxhorenruvglmx.supabase.co/functions/v1/get_notes
+Request body is required
+*/
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 import { createClient } from "jsr:@supabase/supabase-js@2";
 
